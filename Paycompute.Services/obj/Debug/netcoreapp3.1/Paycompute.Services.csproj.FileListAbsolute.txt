@@ -1,0 +1,17 @@
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Services.deps.json
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Services.dll
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Services.pdb
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Entity.dll
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Persistence.dll
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Entity.pdb
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Persistence.pdb
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.csprojAssemblyReference.cache
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.AssemblyInfoInputs.cache
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.AssemblyInfo.cs
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.csproj.CoreCompileInputs.cache
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.csproj.CopyComplete
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.dll
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.pdb
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Services.runtimeconfig.json
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\bin\Debug\netcoreapp3.1\Paycompute.Services.runtimeconfig.dev.json
+C:\Users\Dylan Oh\source\repos\Paycompute.Services\obj\Debug\netcoreapp3.1\Paycompute.Services.genruntimeconfig.cache
