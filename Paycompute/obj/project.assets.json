@@ -5772,11 +5772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute\\Paycompute.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute\\Paycompute.csproj",
       "projectName": "Paycompute",
-      "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute\\Paycompute.csproj",
+      "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute\\Paycompute.csproj",
       "packagesPath": "C:\\Users\\Dylan Oh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute\\obj\\",
+      "outputPath": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5797,11 +5797,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Entity\\Paycompute.Entity.csproj": {
-              "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Entity\\Paycompute.Entity.csproj"
+            "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj": {
+              "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj"
             },
-            "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Services\\Paycompute.Services.csproj": {
-              "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Services\\Paycompute.Services.csproj"
+            "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Services\\Paycompute.Services.csproj": {
+              "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Services\\Paycompute.Services.csproj"
             }
           }
         }

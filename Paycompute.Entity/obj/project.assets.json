@@ -5704,11 +5704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "projectName": "Paycompute.Entity",
-      "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectPath": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "packagesPath": "C:\\Users\\Dylan Oh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan Oh\\source\\repos\\Paycompute.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Dylan Oh\\source\\repos\\PaycomputeApp\\Paycompute.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
