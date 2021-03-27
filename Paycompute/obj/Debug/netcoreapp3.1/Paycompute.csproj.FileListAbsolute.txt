@@ -195,3 +195,4 @@ C:\Users\Dylan Oh\source\repos\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.1\
 C:\Users\Dylan Oh\source\repos\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.1\Paycompute.pdb
 C:\Users\Dylan Oh\source\repos\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.1\Paycompute.genruntimeconfig.cache
 C:\Users\Dylan Oh\source\repos\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Dylan Oh\source\repos\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
