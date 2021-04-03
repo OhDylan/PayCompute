@@ -49,7 +49,7 @@ namespace Paycompute.Services.Implementation
             return allTaxYear;
         }
 
-        public PaymentRecord GeyById(int id) =>
+        public PaymentRecord GetById(int id) =>
             _context.PaymentRecords.Where(pay => pay.Id == id).FirstOrDefault();
 
         public decimal NetPay(decimal totalEarnings, decimal totalDeduction) =>
