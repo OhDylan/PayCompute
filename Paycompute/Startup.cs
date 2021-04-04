@@ -32,8 +32,27 @@ namespace Paycompute
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequiredUniqueChars = 1;
+
+                // Lockout settings
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.AllowedForNewUsers = true;
+            });
+
             services.AddControllersWithViews();
             services.AddRazorPages();
             // Have to add this service so that it is available for injection
@@ -48,7 +67,10 @@ namespace Paycompute
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, 
+                            IWebHostEnvironment env, 
+                            UserManager<IdentityUser> userManager, 
+                            RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -68,6 +90,8 @@ namespace Paycompute
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            DataSeedingInitializer.UserAndRoleSeedAync(userManager, roleManager).Wait();
 
             app.UseEndpoints(endpoints =>
             {
